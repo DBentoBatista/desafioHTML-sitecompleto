@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table thead {
+            background-color: #42bdb6;
+            color: black;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: lightgray;
+        }
+        table tbody tr:hover td {
+            background-color: rgb(190, 190, 190);
+            cursor:pointer
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="template.html">Página Inicial</a></li>
+                    <br>
+                    <li><a href="sobre.html">Sobre a clínica</a></li>
+                    <br>
+                    <li><a href="horário.html">Horário de atendimento</a></li>
+                    <br>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="banner3.png">
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <h1>Nossos serviços</h1>
+                <hr>
+                <blockquote>
+                    <h2>Psicoterapia Infantil</h2>
+                    <p>As psicoterapias são elaboradas e compostas por recursos e instrumentos de acordo com a
+                        necessidade da criança. Entre elas, comportamental, analítica e aba. Na entrevista inicial será
+                        avaliado o tipo de atendimento mais apropriado.</p>
+                    <h2>Orientação de pais</h2>
+                    <p>Atendimento realizado através da nossa plataforma de videochamada visando orientar e assistir
+                        famílias no controle emocional e na dinâmica familiar.</p>
+                    <h2>Avaliação Neuropsicológica</h2>
+                    <p>A avaliação neuropsicológica é um procedimento que tem por objetivo investigar as funções
+                        cognitivas e distúrbios de atenção, memória, percepção, capacidade de raciocínio cálculo e
+                        planejamento, bem como seus diagnósticos diferenciais. </p>
+                </blockquote>
+
+                <h1>Horário de atendimento</h1>
+                <hr>
+                <table summary="Esta tabela refere-se ao horário de atendimento da clínica" border="5" width="300"
+                    cellspacing="5" cellpadding="3">
+                    <thead>
+                        <tr>
+                            <th>Dia da Semana</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda a sexta</td>
+                            <td>Das 8h às 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>Das 8h às 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Domingos e feriados</td>
+                            <td>Das 8h às 14h</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="footer">
+                <img src="footer.png" alt="">
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
